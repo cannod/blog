@@ -1,4 +1,5 @@
 {% for post in site.posts %}
+  [{{ post.title }}]({{ post.url }})
   ## {{ post.title }}
   <a href="{{ post.url }}">## {{ post.title }}</a>
     {{ post.excerpt }}
